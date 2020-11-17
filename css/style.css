@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+*{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing: border-box;
+   }
+   
+   .container{
+       width: 1200px;
+       margin: auto;
+   }
+
+   /*  */
+
+.nav{
+    /* background-color: #F4F4ED; */
+    color: #6B6565;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+ol li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.login{
+    border: #27DEBF solid 2px;
+    border-radius: 20px;
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 600px) {
+    .nav {
+      font-family: 'Tajawal', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: right;
+      display: inline-block;
+    }
+  }
+
+
+
+/* s01 */
+
+.s01{
+ margin-bottom: 20px;
+ /* background-color: #FDFDFD; */
+ background-color: white;
+ padding: 10px;
+ font-family: 'Markazi Text', serif;
+ font-size: 34px;
+ color: #6B6565;
+}
+.s10{
+    max-width: 70%;
+}
+.s10 p {
+    max-width: 450px;
+}
+.s10 span{
+    background-color: #27DEBF;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.s01 button{
+    background-color: #27DEBF;
+    width: 250px;
+    border: solid white 1 px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 600px) {
+    .s10  {
+      font-family: 'Tajawal', sans-serif;
+      font-weight: 200;
+      font-size: 18px;
+      text-align: right;
+      display: inline-block;
+    }
+
+    .s001{
+        direction: rtl;
+        margin-top: 200px;
+        text-align: right;
+    }
+
+    .s001 img {
+    
+    }
+ 
+       
+       
+  }
+
+
+.s001{
+    direction: ltr;
+}
+.s01 img{
+    width: 30%;
+    margin-top: -150px;
+}
+
+.element {
+   width: 20px;
+    margin: 0 auto;
+    background-image: url('image/vector01.jpg');
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-image: url('image/vector01.jpg');
+      width: 20%;
+    }
+    50% {
+        background-image: url('image/vector01.jpg');
+        width: 40%;
+    }
+    100% {
+      transform: scale(1.5);
+      background-image: url('image/vector01.jpg');
+      width: 70%;
+    }
+  }
+  
+
+
+
+/* section three */
+
+.sec03{
+
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: #F3F9F9;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 24px;
+    color: #757473;
+}
+
+
+/* section four  */
+
+.sec04{
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 24px;
+    color: #757473;
+}
+
+.sec004{
+text-align: center;
+}
+
+.sec004  img{
+    margin-top:50px;
+    width: 70%;   
+}
+.sec004 div{
+    display: inline-block;
+    text-align: center;
+    margin-top:50px;
+    width: 20%;
+    border:  #6DECAF solid 2px;
+    border-radius: 20px;  
+
+}
+.sec004 div p{
+
+    line-height: 1.6;
+}
+/* section sex  */
+
+.s06{
+    margin-bottom: 20px;
+    background-color: #FDFDFD;
+    padding: 10px;
+    font-family: 'Markazi Text', serif;
+    font-size: 34px;
+    color: #6B6565;
+   }
+
+   .s061{
+    max-width: 70%;
+}
+.s061 p {
+    max-width: 450px;
+}
+.s061 button{
+    background-color: #27DEBF;
+    width: 250px;
+    border: solid white 1 px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.s061 span{
+    background-color: #27DEBF;
+padding: 10px;
+}
+
+.s006{
+    direction: ltr;
+}
+.s006 img{
+    margin-top: -340px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+
+    .s006{
+        direction: rtl;
+        margin-top: 200px;
+        text-align: right;
+        width: 40%;
+    }
+
+ 
+       
+       
+  }
+
+/* framework */
+
+.pf{
+font-family: 'Cairo', sans-serif;
+}
